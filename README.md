@@ -36,8 +36,25 @@ OneTHU 应用内「插件市场」页签的数据源仓库。
 
 ## 插件仓库格式
 
-见 OneTHU 主仓库 `docs/plugin-development.md` §7：仓库根目录提供 `plugin.js`
+见 OneTHU 主仓库 `docs/plugin-development.md` §8.1：仓库根目录提供 `plugin.js`
 （或 `index.js` / `main.js`），内容为单文件 ES 模块（`manifest` 导出 + 默认导出
 激活函数），与「粘贴安装」格式完全一致。
 
 完整示例仓库：[OneTHU-plugin-hello](https://github.com/smartThise/OneTHU-plugin-hello)。
+
+## 版本号维护（重要）
+
+条目的 `version` 是**人工维护的元数据**，应用端据此判定更新：市场版本高于用户本地
+已装版本时，插件卡片显示「可更新 ↑」，市场条目按钮显示「更新」。该字段不随插件仓库
+自动同步，因此**插件仓库每次发布新版本后，须向本仓库提交同版本的 `version` 改动**，
+否则用户端不出现更新提示（表现为「插件明明升级了，市场里看不到新版」）。
+
+同时应保持条目与插件 `manifest` 三者一致：`id`、`name`、`version`。审查会核对这
+三项。
+
+## 数据新鲜度
+
+应用端拉取名单：优先 GitHub contents API，失败降级 `raw.githubusercontent.com`；
+本地另有 5 分钟缓存，「刷新」按钮强制跳过缓存。raw 域名的 Fastly 边缘缓存会短时
+返回推送前的旧内容且忽略 query 参数，故收录合并后若前端仍显示旧名单，等待缓存过期
+或点「刷新」即可。
