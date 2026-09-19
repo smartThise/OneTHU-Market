@@ -1,15 +1,19 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-19",
+  "updatedAt": "2026-09-20",
   "plugins": [
     {
       "id": "onethu.example.hello",
       "name": "Hello 示例插件",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "author": "OneTHU",
-      "description": "最小示例：展示 onethu.* 基本用法，可作为开发模板。源码见独立示例仓库",
+      "description": "特性全景示例：结构化结果、确认/表单弹窗、剪贴板、自建功能页、全局 CSS、原子化收藏、OH 双向联动。可作为开发模板。",
       "repo": "smartThise/OneTHU-plugin-hello",
-      "tags": ["示例", "模板"]
+      "tags": [
+        "示例",
+        "模板",
+        "特性全景"
+      ]
     }
   ]
 }
