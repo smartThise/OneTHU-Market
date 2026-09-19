@@ -40,7 +40,12 @@ OneTHU 应用内「插件市场」页签的数据源仓库。
 （或 `index.js` / `main.js`），内容为单文件 ES 模块（`manifest` 导出 + 默认导出
 激活函数），与「粘贴安装」格式完全一致。
 
-完整示例仓库：[OneTHU-plugin-hello](https://github.com/smartThise/OneTHU-plugin-hello)。
+完整示例仓库：
+
+- [OneTHU-plugin-hello](https://github.com/smartThise/OneTHU-plugin-hello)：通用能力插件
+  示例（结构化结果、弹窗表单、自建功能页、原子化收藏、OH 双向联动）。
+- [OneTHU-theme-barbie](https://github.com/smartThise/OneTHU-theme-barbie)：主题插件示例
+  （令牌覆盖 + 品牌 logo 替换 + 作用域附加 CSS，`category: "theme"`、零权限）。
 
 ## 版本号维护（重要）
 

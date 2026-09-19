@@ -14,6 +14,19 @@
         "模板",
         "特性全景"
       ]
+    },
+    {
+      "id": "onethu.theme.barbie",
+      "name": "芭比粉",
+      "version": "1.0.0",
+      "author": "OneTHU",
+      "description": "主题示例插件：品红强调 + 粉纸面 + 深梅字色。亮粉但不刺眼——正文、次要字、链接与按钮白字均按对比度阈值选值。",
+      "repo": "smartThise/OneTHU-theme-barbie",
+      "tags": [
+        "主题",
+        "示例",
+        "配色"
+      ]
     }
   ]
 }
