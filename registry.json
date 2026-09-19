@@ -7,9 +7,8 @@
       "name": "Hello 示例插件",
       "version": "1.0.0",
       "author": "OneTHU",
-      "description": "最小示例：展示 onethu.* 基本用法，可作为开发模板",
-      "repo": "smartThise/OneTHU-Market",
-      "entry": "plugins/hello/plugin.js",
+      "description": "最小示例：展示 onethu.* 基本用法，可作为开发模板。源码见独立示例仓库",
+      "repo": "smartThise/OneTHU-plugin-hello",
       "tags": ["示例", "模板"]
     }
   ]
