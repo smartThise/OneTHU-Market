@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-19",
+  "plugins": [
+    {
+      "id": "onethu.example.hello",
+      "name": "Hello 示例插件",
+      "version": "1.0.0",
+      "author": "OneTHU",
+      "description": "最小示例：展示 onethu.* 基本用法，可作为开发模板",
+      "repo": "smartThise/OneTHU-Market",
+      "entry": "plugins/hello/plugin.js",
+      "tags": ["示例", "模板"]
+    }
+  ]
+}
