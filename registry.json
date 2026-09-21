@@ -5,7 +5,7 @@
     {
       "id": "onethu.example.hello",
       "name": "Hello 示例插件",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "author": "OneTHU",
       "description": "特性全景示例：结构化结果、确认/表单弹窗、剪贴板、自建功能页、全局 CSS、原子化收藏、桌面小组件、系统通知、OH 双向联动。可作为开发模板。",
       "repo": "smartThise/OneTHU-plugin-hello",
