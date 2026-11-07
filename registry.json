@@ -27,6 +27,16 @@
         "示例",
         "配色"
       ]
+    },
+    {
+      "id": "onethu.pdf4oh",
+      "name": "pdf4oh · 课程 PDF 阅读",
+      "version": "0.1.0",
+      "author": "xiao-dreamr",
+      "description": "让 OH 读取网络学堂课程文件里的 PDF 正文：按文件定位、按页读文本、页内检索；只读。",
+      "repo": "xiao-dreamr/onethu-plugin-pdf4oh",
+      "entry": "plugin.js",
+      "tags": ["学习", "PDF", "网络学堂"]
     }
   ]
 }
